@@ -60,9 +60,18 @@
   <TypeDate>
     <guid>d43ed4a253be8b54fbe5bf127fb95d38</guid>
     <fileName>Assets/Script/CameraControl.cs</fileName>
-    <timeStamp>2020-09-08T18:58:03.3751231+08:00</timeStamp>
+    <timeStamp>2020-09-12T22:14:13.9168101+08:00</timeStamp>
     <typeFullName>
       <string>CameraControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d84f7a4155cf0ec4baec0a56b9b21bcc</guid>
+    <fileName>Assets/Script/RotateView.cs</fileName>
+    <timeStamp>2020-09-12T22:14:13.9168101+08:00</timeStamp>
+    <typeFullName>
+      <string>RotateView</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
