@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 2437df04e5cf78148b84369b0c17558e
+guid: 5a256402334129e4298516f211677e57
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A06
+    second: {fileID: 2100000, guid: d9ce274d192a9664e9209582a8f26f73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Gold
+    second: {fileID: 2100000, guid: ab14481f198fb2344af15d35f9cfa98f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Green_Dark
+    second: {fileID: 2100000, guid: ab14481f198fb2344af15d35f9cfa98f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _75ci1sul
+    second: {fileID: 2100000, guid: aabda90b5694c5b41879d16a938f4104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: ab14481f198fb2344af15d35f9cfa98f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0
+    second: {fileID: 2100000, guid: ab14481f198fb2344af15d35f9cfa98f, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
