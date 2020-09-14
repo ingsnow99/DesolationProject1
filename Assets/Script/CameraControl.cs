@@ -9,7 +9,7 @@ public class CameraControl : MonoBehaviour
     public float panBorderThickness = 10f;
     public float scrollSpeed = 2f;
     public Vector2 panLimit;
-    public float zoomLimit = 20f;
+    public float zoomInLimit,zoomOutLimit;
     float scroll;
     float defaultHeight;
 
@@ -18,6 +18,7 @@ public class CameraControl : MonoBehaviour
     void Start()
     {
       defaultHeight = transform.position.y;
+      this.GetComponent<Camera>().orthographicSize=zoomOutLimit;
     }
 
     // Update is called once per frame
@@ -26,14 +27,14 @@ public class CameraControl : MonoBehaviour
        
         if(Input.GetAxis("Mouse ScrollWheel")<0f)
         {
-             if(this.GetComponent<Camera>().orthographicSize>20)
-                this.GetComponent<Camera>().orthographicSize=20;
+             if(this.GetComponent<Camera>().orthographicSize>zoomOutLimit)
+                this.GetComponent<Camera>().orthographicSize=zoomOutLimit;
             this.GetComponent<Camera>().orthographicSize+=0.5f;
         }
             if(Input.GetAxis("Mouse ScrollWheel")>0f)
         {
-            if(this.GetComponent<Camera>().orthographicSize<3)
-                this.GetComponent<Camera>().orthographicSize=3;
+            if(this.GetComponent<Camera>().orthographicSize<zoomInLimit)
+                this.GetComponent<Camera>().orthographicSize=zoomInLimit;
             this.GetComponent<Camera>().orthographicSize-=0.5f;
         }
 
